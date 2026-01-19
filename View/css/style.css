@@ -1,0 +1,218 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+/* Header */
+.header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    margin-bottom: 30px;
+}
+
+.tituloHeader {
+    margin: 0 0 20px 0;
+    text-align: center;
+}
+
+.navBar {
+    background-color: #222;
+    border-radius: 5px;
+}
+
+.navBar ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.navBar li {
+    display: inline-block;
+}
+
+.navBar a {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 20px;
+    display: block;
+}
+
+.navBar a:hover {
+    background-color: #444;
+}
+
+/* Artículos */
+.article {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 20px;
+    margin-bottom: 30px;
+}
+
+.article-title {
+    color: #333;
+    margin-top: 0;
+}
+
+.article-meta {
+    color: #777;
+    font-size: 14px;
+    margin-bottom: 15px;
+}
+
+.article-body {
+    line-height: 1.6;
+    color: #555;
+    margin-bottom: 20px;
+}
+
+.footer-meta {
+    color: #777;
+    font-size: 14px;
+    margin-bottom: 15px;
+}
+
+.article-edit {
+    font-style: italic;
+    margin-left: 15px;
+}
+
+/* Formularios */
+.form {
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+}
+
+.form h4 {
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-control {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 14px;
+    box-sizing: border-box;
+}
+
+.form-control:focus {
+    outline: none;
+    border-color: #5cb85c;
+}
+
+textarea.form-control {
+    min-height: 150px;
+    resize: vertical;
+}
+
+/* Botones */
+.btn {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 14px;
+    margin-right: 10px;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.btn-primary {
+    background-color: #337ab7;
+    color: #fff;
+}
+
+.btn-primary:hover {
+    background-color: #286090;
+}
+
+.btn-secondary {
+    background-color: #5bc0de;
+    color: #fff;
+}
+
+.btn-secondary:hover {
+    background-color: #31b0d5;
+}
+
+.btn-danger {
+    background-color: #d9534f;
+    color: #fff;
+}
+
+.btn-danger:hover {
+    background-color: #c9302c;
+}
+
+/* Forms inline */
+.inline {
+    display: inline-block;
+    margin: 0;
+}
+
+.submitLink {
+    background: none;
+    border: none;
+    color: #337ab7;
+    text-decoration: underline;
+    cursor: pointer;
+    padding: 0;
+    font-size: inherit;
+}
+
+.submitLink:hover {
+    color: #23527c;
+}
+
+/* Footer */
+.container-inverse {
+    background-color: #333;
+    color: #fff;
+    margin-top: 30px;
+}
+
+footer {
+    padding: 20px;
+    text-align: center;
+}
+
+.autor {
+    margin: 0;
+    font-size: 14px;
+}
+
+/* Mensajes de error */
+.error {
+    color: #d9534f;
+    font-size: 16px;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Page header */
+.page-header {
+    padding-bottom: 10px;
+    margin: 20px 0;
+    border-bottom: 1px solid #eee;
+}
